@@ -14,8 +14,12 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
           {/* Profile Image Placeholder */}
-          <div className="w-32 h-32 mx-auto mb-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white text-4xl font-bold shadow-xl">
-            PM
+          <div className="w-32 h-32 mx-auto mb-8 rounded-full shadow-xl overflow-hidden border-4 border-white">
+            <img 
+              src="/images/profile.jpg" 
+              alt="Phumudzo Oasis Munyai" 
+              className="w-full h-full object-cover"
+            />
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-6 leading-tight">
@@ -36,7 +40,7 @@ const Hero = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="mailto:phumudzo@example.com"
+              href="mailto:p.munyai@gmail.com"
               className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-semibold flex items-center gap-2 hover:shadow-xl transform hover:scale-105 transition-all duration-300"
             >
               <Mail size={20} />
