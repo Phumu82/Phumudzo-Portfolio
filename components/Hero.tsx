@@ -16,7 +16,7 @@ const Hero = () => {
           {/* Profile Image Placeholder */}
           <div className="w-32 h-32 mx-auto mb-8 rounded-full shadow-xl overflow-hidden border-4 border-white">
             <img 
-              src="/images/profile.jpg" 
+              src="/profile.jpg" 
               alt="Phumudzo Oasis Munyai" 
               className="w-full h-full object-cover"
             />
