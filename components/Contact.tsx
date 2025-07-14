@@ -24,8 +24,8 @@ const Contact = () => {
                 </div>
                 <div className="text-left">
                   <p className="font-medium">Email</p>
-                  <a href="mailto:phumudzo@example.com" className="text-blue-300 hover:text-blue-200">
-                    phumudzo@example.com
+                  <a href="mailto:p.munyai@gmail.com" className="text-blue-300 hover:text-blue-200">
+                    p.munyai@gmail.com
                   </a>
                 </div>
               </div>
@@ -36,7 +36,7 @@ const Contact = () => {
                 </div>
                 <div className="text-left">
                   <p className="font-medium">Location</p>
-                  <p className="text-blue-200">Johannesburg, South Africa</p>
+                  <p className="text-blue-200">Soweto, South Africa</p>
                 </div>
               </div>
 
@@ -56,7 +56,9 @@ const Contact = () => {
               
               <div className="space-y-4">
                 <a
-                  href="#"
+                  href="https://github.com/phumu82"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-white/10 backdrop-blur-sm rounded-lg hover:bg-white/20 transition-all duration-300 group"
                 >
                   <div className="p-3 bg-gray-800 rounded-lg group-hover:bg-gray-700 transition-colors">
@@ -69,7 +71,9 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/phumudzo-oasis-munyai-02693a254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-white/10 backdrop-blur-sm rounded-lg hover:bg-white/20 transition-all duration-300 group"
                 >
                   <div className="p-3 bg-blue-600 rounded-lg group-hover:bg-blue-500 transition-colors">
@@ -96,7 +100,7 @@ const Contact = () => {
 
           <div className="text-center">
             <a
-              href="mailto:phumudzo@example.com"
+              href="mailto:p.munyai@gmail.com"
               className="inline-flex items-center gap-3 bg-gradient-to-r from-blue-500 to-purple-600 px-8 py-4 rounded-full font-semibold hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
             >
               <Send size={20} />
